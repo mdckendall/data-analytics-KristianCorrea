@@ -24,16 +24,21 @@ class Main {
       
       switch(input.nextInt()){
         case 1: System.out.println("$98,345 average salary in South Florida!");
+          break;
         case 2: System.out.println("US News - 100 Best Jobs!");
+          break;
         case 3: System.out.println("Top 10 Forbes In-Demand Jobs!");
+          break;
         case 4: {
           System.out.println("Current Students:");
           for(var e: arrayList){
             System.out.println(e);
           }
+          break;
         }
         default: {
           quit = true;
+          break;
         }
       }
     }
