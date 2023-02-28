@@ -23,16 +23,16 @@ class Main {
       
       
       switch(input.nextInt()){
-        case 1 -> System.out.println("$98,345 average salary in South Florida!");
-        case 2 -> System.out.println("US News - 100 Best Jobs!");
-        case 3 -> System.out.println("Top 10 Forbes In-Demand Jobs!");
-        case 4 -> {
+        case 1: System.out.println("$98,345 average salary in South Florida!");
+        case 2: System.out.println("US News - 100 Best Jobs!");
+        case 3: System.out.println("Top 10 Forbes In-Demand Jobs!");
+        case 4: {
           System.out.println("Current Students:");
           for(var e: arrayList){
             System.out.println(e);
           }
         }
-        default -> {
+        default: {
           System.out.println("Quitting");
           quit = true;
         }
