@@ -33,7 +33,6 @@ class Main {
           }
         }
         default: {
-          System.out.println("Quitting");
           quit = true;
         }
       }
