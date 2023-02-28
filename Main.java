@@ -15,11 +15,11 @@ class Main {
     }
     var quit = false;
     while(!quit){
-      System.out.println("1) Salary");
-      System.out.println("2) Jobs");
-      System.out.println("3) Demand");
-      System.out.println("4) Students");
-      System.out.println("5) Quit");
+      System.out.println("Press 1 to learn about salary.");
+      System.out.println("Press 2 to learn about the job.");
+      System.out.println("Press 3 to learn about demand.");
+      System.out.println("Press 4 to view current students.");
+      System.out.println("Press 5 to quit.");
       
       
       switch(input.nextInt()){
